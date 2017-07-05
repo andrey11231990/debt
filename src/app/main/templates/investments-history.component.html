@@ -1,0 +1,13 @@
+<div>
+    <button (click)="addNewPayment()">Add new payment</button>
+    <ul class="payment-info">
+        <li *ngFor="let payment of history" class="payment">
+            <div>
+                Date of payments: <span class="info">{{payment.date}}</span>
+            </div>
+            <div>
+                Repaid amount of money: <span class="info">{{payment.amount}}</span>
+            </div>
+        </li>
+    </ul>
+</div>

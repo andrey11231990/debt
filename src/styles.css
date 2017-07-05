@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+.investments-dashboard {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+}
+.investments-history {
+    flex: 3;
+}
+.total-investments-info {
+    flex: 1;
+    /*border: 1px solid blue;*/
+    background: aqua;
+}
+
+/* total info */
+.total-investments-info .header {
+    font-size: 1em;
+    color: blue;
+}
+.info-label {
+    font-size: 1em;
+}
+.info-label .info {
+    font-size: 2em;
+    font-weight: bold;
+    color: green;
+}
+.info-label .info.red {
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+}
+
+/* payments history */
+.payment-info {
+    font-size: 1em;
+    list-style: none;
+}
+.payment-info .payment {
+    background: chartreuse;
+    margin: 20px 0;
+}
+.payment-info .info {
+    font-size: 2em;
+    color: green;
+}
