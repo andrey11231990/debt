@@ -1,5 +1,6 @@
 <div>
-    <button (click)="addNewPayment()">Add new payment</button>
+    <a routerLink="/addPayment">Add new payment</a>
+    <!--<button (click)="addNewPayment()">Add new payment</button>-->
     <ul class="payment-info">
         <li *ngFor="let payment of history" class="payment">
             <div>

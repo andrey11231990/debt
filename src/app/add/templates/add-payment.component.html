@@ -1,0 +1,14 @@
+<div>
+    <div>
+        <input placeholder="Amount of money" [(ngModel)]="sum" />
+    </div>
+    <div>
+        <input placeholder="Date of returning" [(ngModel)]="date" />
+    </div>
+    <a (click)="addPayment()">
+        Add payment
+    </a>
+    <a routerLink="">
+        Cancel
+    </a>
+</div>
